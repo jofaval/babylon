@@ -18,6 +18,7 @@ Microservices using mutliple languages (as with Babylon's tower) for a fake e-co
     1. [C++](#c)
     1. [Rust](#rust)
     1. [C#.NET](#cnet)
+1. [Credits](#credits)
 
 ## Motivation
 
@@ -26,6 +27,8 @@ I wanted to try out the microservices architecture, and, while doing so, try out
 I've chosed babylon to represent the amount of languages, and I also liked the idea of it's ambicousness, because it could, well likely, be the downfall of this project.
 
 ## Architecture
+
+An explanation about my choices and my reasoning.
 
 ### Microservices pattern
 
@@ -91,3 +94,8 @@ Link to repository...
 ### C#.NET
 
 Link to repository...
+
+## Credits
+
+To [microservices.io](https://microservices.io) and [Chris Richardson](https://github.com/cer)\
+And to [IBM's Technology YouTube channel](https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ)
