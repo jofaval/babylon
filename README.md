@@ -1,6 +1,9 @@
 # Babylon
 Microservices using mutliple languages (as with Babylon's tower) for a fake e-commerce
 
+It's managed with a Github Projects to keep track of all of the repositories, [link's here](https://github.com/users/jofaval/projects/5).\
+[[Microservices] Babylon E-Commerce](https://github.com/users/jofaval/projects/5).
+
 ## Contents
 
 1. [Motivation](#motivation)
