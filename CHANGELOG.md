@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 
 - Created UI Gateway service base (shallow) content.
+- Explain a little bit of the reasoning behind the gateways.
 
 ## 2022-08-12
 
