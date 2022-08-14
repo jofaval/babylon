@@ -4,6 +4,16 @@ All the changes related to this project and repository, repositories later down 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## 2022-08-14
+
+### Added
+
+- Improved the navigation in the main README.
+
+### Modified
+
+- Remove `link here` for a more semantic alternative for Github Project's link.
+
 ## 2022-08-13
 
 ### Added
