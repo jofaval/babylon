@@ -1,0 +1,34 @@
+# FROM: https://gist.github.com/pythoninthegrass/d18e0ed9672f321f497d1cbb697387c2
+# BY: https://github.com/pythoninthegrass
+
+name: Send submodule updates to parent repo
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: jofaval/babylon
+          token: ${{ secrets.PAT }}
+          ref: main
+          submodules: true
+
+      - name: Pull & update submodules recursively
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
+      - name: Commit
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions - update submodules"
+          git add --all
+          git commit -m "chore(${{ github.event.repository.name }}): Update submodule" || echo "No changes to commit"
+          git push
