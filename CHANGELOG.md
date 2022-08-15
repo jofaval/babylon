@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
+- Main packages to each gateway service, and a shallow `services.json` configuration file.
 - Created a base gateway logic abstraction as to reduce code duplicty in both gateway services.
 
 ## 2022-08-14
