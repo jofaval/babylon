@@ -1,0 +1,3 @@
+[submodule "babylon-payments-service"]
+	path = babylon-payments-service
+	url = https://github.com/jofaval/babylon-payments-service
