@@ -5,6 +5,7 @@ It's managed with a Github Project (beta) to keep track of all of the repositori
 
 ## Contents
 
+1. [Cloning the repository](#cloning-the-repository)
 1. [Motivation](#motivation)
 1. [Architecture](#architecture)
     1. [Microservices pattern](#microservices-pattern)
@@ -21,6 +22,30 @@ It's managed with a Github Project (beta) to keep track of all of the repositori
     1. [Rust](#rust)
     1. [C#.NET](#cnet)
 1. [Credits](#credits)
+
+## Cloning the repository
+[⬆ Return to the contents](#contents)
+
+You'll have to clone the repository, but this one, it is a special one. It uses submodules, which are links to other repositories, sort of.
+
+For Git >= 2.13:
+
+```bash
+git clone --recurse-submodules -j8 git://github.com/jofaval/babylon.git
+cd babylon
+```
+
+_`-j8` will allow to download up to 8 submodules at once._
+
+For older Git versions compatibility, this would be the commands:
+
+```bash
+git clone git://github.com/jofaval/babylon.git
+cd babylon
+git submodule update --init --recursive
+```
+
+Any specification needed for a given service will be detailed at that specific service.
 
 ## Motivation
 [⬆ Return to the contents](#contents)
