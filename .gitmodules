@@ -2,3 +2,7 @@
 	path = babylon-payments-service
 	url = https://github.com/jofaval/babylon-payments-service.git
 	branch = main
+[submodule "babylon-customers-service"]
+	path = babylon-customers-service
+	url = https://github.com/jofaval/babylon-customers-service.git
+	branch = main
