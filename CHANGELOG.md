@@ -19,7 +19,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Modified
 
-- Remove `link here` for a more semantic alternative for Github Project's link.
+- Remove `link here` for a more semantic alternative for the Github Project's link.
 
 ## 2022-08-13
 
