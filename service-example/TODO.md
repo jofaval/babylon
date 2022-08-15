@@ -1,0 +1,4 @@
+- [ ] Create the remote repository
+- [ ] Create the secret `PAT` token
+- [ ] Update CHANGELOG
+- [ ] Start the magic
