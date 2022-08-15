@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Main packages to each gateway service, and a shallow `services.json` configuration file.
 - Created a base gateway logic abstraction as to reduce code duplicty in both gateway services.
 - Added payments service as a new submodule, (played around with subtrees and submodules, liked the latter a little more).
+- Created example `service-example` folder as a guideline, and later the automated baseline.
 
 ## 2022-08-14
 
