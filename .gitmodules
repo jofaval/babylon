@@ -34,3 +34,7 @@
 	path = babylon-reporting-services
 	url = https://github.com/jofaval/babylon-reporting-services
 	branch = main
+[submodule "babylon-comments-service"]
+	path = babylon-comments-service
+	url = https://github.com/jofaval/babylon-comments-service
+	branch = main
