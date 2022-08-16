@@ -30,3 +30,7 @@
 	path = babylon-orders-service
 	url = https://github.com/jofaval/babylon-orders-service
 	branch = main
+[submodule "babylon-reporting-services"]
+	path = babylon-reporting-services
+	url = https://github.com/jofaval/babylon-reporting-services
+	branch = main

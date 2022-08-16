@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Carts
   - Inventory
   - Orders
+  - Reporting
 
 ## 2022-08-15
 
