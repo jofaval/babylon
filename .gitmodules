@@ -6,3 +6,7 @@
 	path = babylon-customers-service
 	url = https://github.com/jofaval/babylon-customers-service.git
 	branch = main
+[submodule "babylon-catalog-service"]
+	path = babylon-catalog-service
+	url = https://github.com/jofaval/babylon-catalog-service
+	branch = main
