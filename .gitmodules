@@ -14,3 +14,7 @@
 	path = babylon-reviews-service
 	url = https://github.com/jofaval/babylon-reviews-service
 	branch = main
+[submodule "babylon-recommendations-service"]
+	path = babylon-recommendations-service
+	url = https://github.com/jofaval/babylon-recommendations-service
+	branch = main
