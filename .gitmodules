@@ -22,3 +22,7 @@
 	path = babylon-carts-service
 	url = https://github.com/jofaval/babylon-carts-service
 	branch = main
+[submodule "babylon-inventory-service"]
+	path = babylon-inventory-service
+	url = https://github.com/jofaval/babylon-inventory-service
+	branch = main
