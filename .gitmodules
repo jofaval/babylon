@@ -10,3 +10,7 @@
 	path = babylon-catalog-service
 	url = https://github.com/jofaval/babylon-catalog-service
 	branch = main
+[submodule "babylon-reviews-service"]
+	path = babylon-reviews-service
+	url = https://github.com/jofaval/babylon-reviews-service
+	branch = main
