@@ -38,3 +38,7 @@
 	path = babylon-comments-service
 	url = https://github.com/jofaval/babylon-comments-service
 	branch = main
+[submodule "babylon-ui"]
+	path = babylon-ui
+	url = https://github.com/jofaval/babylon-ui
+	branch = main
