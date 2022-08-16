@@ -4,6 +4,17 @@ All the changes related to this project and repository, repositories later down 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## 2022-08-16
+
+### Added
+
+- Created some new microservices:
+  - Catalog
+  - Reviews
+  - Recommendations
+  - Carts
+  - Inventory
+
 ## 2022-08-15
 
 ### Added
@@ -14,6 +25,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Created payments service, more updates will be at it's own CHANGELOG, and so will be with the others.
 - Created example `service-example` folder as a guideline, and later the automated baseline.
 - Created a utility script for service generation
+- Created customers microservice.
 
 ## 2022-08-14
 
