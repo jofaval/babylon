@@ -12,15 +12,6 @@ It's managed with a Github Project (beta) to keep track of all of the repositori
     1. [Monorepo vs Multirepo](#monorepo-vs-multirepo)
 1. [Idea](#idea)
 1. [Microservices](#microservices)
-    1. [Python (Django and Flask)](#python-django-and-flask)
-    1. [Ruby (on Rails)](#ruby-on-rails)
-    1. [PHP (Laravel)](#php-laravel)
-    1. [Java (SpringBoot)](#java-springboot)
-    1. [Golang (Gin-gonic)](#golang-gin-gonic)
-    1. [Javascript (Typescript)](#javascript-typescript)
-    1. [C++](#c)
-    1. [Rust](#rust)
-    1. [C#.NET](#cnet)
 1. [Credits](#credits)
 
 ## Cloning the repository
@@ -92,50 +83,19 @@ That being said, what am I going to do? An E-Commerce!! For real. Sparked by IBM
 
 The links and brief explanation of each microservice
 
-### Python (Django and Flask)
-[⬆ Return to the contents](#contents)
-
-Link to repository...
-
-### Ruby (on Rails)
-[⬆ Return to the contents](#contents)
-
-Link to repository...
-
-### PHP (Laravel)
-[⬆ Return to the contents](#contents)
-
-Link to repository...
-
-### Java (SpringBoot)
-[⬆ Return to the contents](#contents)
-
-Link to repository...
-
-### Golang (Gin-gonic)
-[⬆ Return to the contents](#contents)
-
-Link to repository...
-
-### Javascript (Typescript)
-[⬆ Return to the contents](#contents)
-
-Link to repository...
-
-### C++
-[⬆ Return to the contents](#contents)
-
-Link to repository...
-
-### Rust
-[⬆ Return to the contents](#contents)
-
-Link to repository...
-
-### C#.NET
-[⬆ Return to the contents](#contents)
-
-Link to repository...
+- **[API Gateway](./babylon-api-gateway-service/)** - Go(lang) and Gingonic, maybe Janus.
+- **[API Gateway UI](./babylon-api-gateway-ui-service/)** - Go(lang) and Gingonic, maybe Janus.
+- **[Carts](https://github.com/jofaval/babylon-carts-service/)** - PHP (Laravel)
+- **[Catalog](https://github.com/jofaval/babylon-catalog-service/)** - _To be defined..._
+- **[Comments](https://github.com/jofaval/babylon-comments-service/)** - _To be defined..._
+- **[Customers](https://github.com/jofaval/babylon-customers-service/)** - _To be defined..._
+- **[Inventory](https://github.com/jofaval/babylon-inventory-service/)** - _To be defined..._
+- **[Orders](https://github.com/jofaval/babylon-orders-service/)** - _To be defined..._
+- **[Payments](https://github.com/jofaval/babylon-payments-service/)** - _To be defined..._
+- **[Recommendations](https://github.com/jofaval/babylon-recommendations-service/)** - Python + Tensorflow
+- **[Reporting](https://github.com/jofaval/babylon-reporting-services/)** - _To be defined..._
+- **[Reviews](https://github.com/jofaval/babylon-reviews-service/)** - _To be defined..._
+- **[UI](https://github.com/jofaval/babylon-ui/)** - TypeScript, JavaScript, React (Remix) and Astro
 
 ## Credits
 [⬆ Return to the contents](#contents)
