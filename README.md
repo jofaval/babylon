@@ -5,15 +5,47 @@ It's managed with a Github Project (beta) to keep track of all of the repositori
 
 ## Contents
 
-1. [Cloning the repository](#cloning-the-repository)
 1. [Motivation](#motivation)
+1. [Microservices](#microservices)
+1. [Microfrontends](#microfrontends)
+1. [Cloning the repository](#cloning-the-repository)
 1. [Architecture](#architecture)
     1. [Microservices pattern](#microservices-pattern)
     1. [Monorepo vs Multirepo](#monorepo-vs-multirepo)
 1. [Idea](#idea)
-1. [Microservices](#microservices)
-1. [Microfrontends](#microfrontends)
 1. [Credits](#credits)
+
+## Motivation
+[⬆ Return to the contents](#contents)
+
+I wanted to try out the microservices architecture, and, while doing so, try out and learni different languages and stacks. I wanted to create a project with different services and different languages, not because of maintainability, because it would obviously be something out of hand. But as of a challenge rather.
+
+I've chosed babylon to represent the amount of languages, and I also liked the idea of it's ambicousness, because it could, well likely, be the downfall of this project.
+
+## Microservices
+[⬆ Return to the contents](#contents)
+
+The links and brief explanation of each microservice
+
+- **[API Gateway](./babylon-api-gateway-service/)** - Go(lang) and Gingonic, maybe Janus.
+- **[API Gateway UI](./babylon-api-gateway-ui-service/)** - Go(lang) and Gingonic, maybe Janus.
+- **[Carts](https://github.com/jofaval/babylon-carts-service/)** - PHP (Laravel)
+- **[Catalog](https://github.com/jofaval/babylon-catalog-service/)** - _To be defined..._
+- **[Comments](https://github.com/jofaval/babylon-comments-service/)** - _To be defined..._
+- **[Customers](https://github.com/jofaval/babylon-customers-service/)** - _To be defined..._
+- **[Inventory](https://github.com/jofaval/babylon-inventory-service/)** - _To be defined..._
+- **[Orders](https://github.com/jofaval/babylon-orders-service/)** - _To be defined..._
+- **[Payments](https://github.com/jofaval/babylon-payments-service/)** - _To be defined..._
+- **[Recommendations](https://github.com/jofaval/babylon-recommendations-service/)** - Python + Tensorflow
+- **[Reporting](https://github.com/jofaval/babylon-reporting-services/)** - _To be defined..._
+- **[Reviews](https://github.com/jofaval/babylon-reviews-service/)** - _To be defined..._
+
+## Microfrontends
+[⬆ Return to the contents](#contents)
+
+They're detailed in it's own repository/submodule, so check it out without any problem for the most up-to-date info.
+
+- **[UI](https://github.com/jofaval/babylon-ui/)** - TypeScript, JavaScript, React (Remix) and Astro
 
 ## Cloning the repository
 [⬆ Return to the contents](#contents)
@@ -38,13 +70,6 @@ git submodule update --init --recursive
 ```
 
 Any specification needed for a given service will be detailed at that specific service.
-
-## Motivation
-[⬆ Return to the contents](#contents)
-
-I wanted to try out the microservices architecture, and, while doing so, try out and learni different languages and stacks. I wanted to create a project with different services and different languages, not because of maintainability, because it would obviously be something out of hand. But as of a challenge rather.
-
-I've chosed babylon to represent the amount of languages, and I also liked the idea of it's ambicousness, because it could, well likely, be the downfall of this project.
 
 ## Architecture
 [⬆ Return to the contents](#contents)
@@ -78,31 +103,6 @@ That being said, what am I going to do? An E-Commerce!! For real. Sparked by IBM
     ![What are Microservices? by IBM Technology](https://img.youtube.com/vi/CdBtNQZH8a4/0.jpg)\
     _What are Microservices? by IBM Technology_
 ](https://www.youtube.com/watch?v=CdBtNQZH8a4)
-
-## Microservices
-[⬆ Return to the contents](#contents)
-
-The links and brief explanation of each microservice
-
-- **[API Gateway](./babylon-api-gateway-service/)** - Go(lang) and Gingonic, maybe Janus.
-- **[API Gateway UI](./babylon-api-gateway-ui-service/)** - Go(lang) and Gingonic, maybe Janus.
-- **[Carts](https://github.com/jofaval/babylon-carts-service/)** - PHP (Laravel)
-- **[Catalog](https://github.com/jofaval/babylon-catalog-service/)** - _To be defined..._
-- **[Comments](https://github.com/jofaval/babylon-comments-service/)** - _To be defined..._
-- **[Customers](https://github.com/jofaval/babylon-customers-service/)** - _To be defined..._
-- **[Inventory](https://github.com/jofaval/babylon-inventory-service/)** - _To be defined..._
-- **[Orders](https://github.com/jofaval/babylon-orders-service/)** - _To be defined..._
-- **[Payments](https://github.com/jofaval/babylon-payments-service/)** - _To be defined..._
-- **[Recommendations](https://github.com/jofaval/babylon-recommendations-service/)** - Python + Tensorflow
-- **[Reporting](https://github.com/jofaval/babylon-reporting-services/)** - _To be defined..._
-- **[Reviews](https://github.com/jofaval/babylon-reviews-service/)** - _To be defined..._
-
-## Microfrontends
-[⬆ Return to the contents](#contents)
-
-They're detailed in it's own repository/submodule, so check it out without any problem for the most up-to-date info.
-
-- **[UI](https://github.com/jofaval/babylon-ui/)** - TypeScript, JavaScript, React (Remix) and Astro
 
 ## Credits
 [⬆ Return to the contents](#contents)

@@ -6,9 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## 2022-08-20
 
+### Added
+
+- Add microfrontends section
+
 ### Modified
 
 - Update mciroservices in README, they're now in a list format
+- Reorder the sections by priority
 
 ## 2022-08-18
 
