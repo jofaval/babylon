@@ -12,6 +12,7 @@ It's managed with a Github Project (beta) to keep track of all of the repositori
     1. [Monorepo vs Multirepo](#monorepo-vs-multirepo)
 1. [Idea](#idea)
 1. [Microservices](#microservices)
+1. [Microfrontends](#microfrontends)
 1. [Credits](#credits)
 
 ## Cloning the repository
@@ -95,6 +96,12 @@ The links and brief explanation of each microservice
 - **[Recommendations](https://github.com/jofaval/babylon-recommendations-service/)** - Python + Tensorflow
 - **[Reporting](https://github.com/jofaval/babylon-reporting-services/)** - _To be defined..._
 - **[Reviews](https://github.com/jofaval/babylon-reviews-service/)** - _To be defined..._
+
+## Microfrontends
+[⬆ Return to the contents](#contents)
+
+They're detailed in it's own repository/submodule, so check it out without any problem for the most up-to-date info.
+
 - **[UI](https://github.com/jofaval/babylon-ui/)** - TypeScript, JavaScript, React (Remix) and Astro
 
 ## Credits
